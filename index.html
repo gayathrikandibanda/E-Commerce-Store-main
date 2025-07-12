@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>E-commerce Clothing Store</title>
+</head>
+<body>
+    <header>
+        <h1>Clothing Store</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sorting buttons -->
+    <div style="margin: 20px;">
+        <button onclick="sortProducts('asc')">Sort by Price (High-Low)</button>
+        <button onclick="sortProducts('desc')">Sort by Price (Low-High)</button>
+    </div>
+
+    <!-- Shop Section -->
+    <section id="shop">
+        <h2>Shop</h2>
+        <section id="product-list" class="product-container">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="T-Shirt">
+                <h3>Classic T-Shirt</h3>
+                <p>Price: $20</p>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Jeans">
+                <h3>Denim Jeans</h3>
+                <p>Price: $40</p>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Jacket">
+                <h3>Leather Jacket</h3>
+                <p>Price: $85</p>
+            </div>
+        </section>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to our Clothing Store! We offer trendy and affordable apparel for all ages and styles. Our mission is to bring fashion and comfort together so you can look your best every day.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@clothingstore.com</p>
+        <p>Phone: +1-234-567-8901</p>
+        <p>Address: 123 Fashion Street, Style City, Country</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
